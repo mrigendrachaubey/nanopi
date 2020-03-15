@@ -71,7 +71,7 @@ Once code is cloned build,
 > cd rk3399-android-8.1
 
 > ./build-nanopc-t4.sh -F -M
-    
+
 Now get full git history
 
 > git fetch origin master --unshallow
@@ -124,6 +124,10 @@ Login onto your board via a serial terminal and type "eflasher" to proceed
 
 > Login: root
 > Password: fa
+
+Now copy your android build that are inside **rk3399-android-8.1/rockdev/Image-nanopc_t4** folder and copy it in eflasher SD card. Insert the SD card in device, and boot the device.
+Run eflasher and now your emmc is updated with your android's source images.
+
 
 **Important BSP source files:**
 ---------------------------
