@@ -1,0 +1,18 @@
+config BR2_PACKAGE_RKSCRIPT
+	bool "rkscript"
+	default y
+	help
+	  Script used for partition init, usb device and other test script.
+
+config BR2_PACKAGE_RKSCRIPT_UMS
+        bool "usb mass storage"
+        depends on BR2_PACKAGE_RKSCRIPT
+        help
+          usb mass storage config
+
+config BR2_PACKAGE_RKSCRIPT_ADBD
+        bool "adbd"
+        depends on BR2_PACKAGE_RKSCRIPT
+        help
+          android adbd config
+

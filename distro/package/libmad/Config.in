@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LIBMAD
+	bool "libmad"
+	help
+	  "High-quality MPEG audio decoder, build minimad for mp3 play"
+

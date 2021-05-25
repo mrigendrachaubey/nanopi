@@ -1,0 +1,468 @@
+config BR2_PACKAGE_GST_PLUGINS_GOOD
+	bool "gst-plugins-good"
+	depends on BR2_PACKAGE_GSTREAMER
+	help
+	  "gstreamer good plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_ALPHA
+	bool "gst-plugins-good alpha"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less alpha plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_APETAG
+	bool "gst-plugins-good apetag"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less apetag plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AUDIOFX
+	bool "gst-plugins-good audiofx"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less audiofx plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AUDIOPARSERS
+	bool "gst-plugins-good audioparsers"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less audioparsers plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AUPARSE
+	bool "gst-plugins-good auparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less auparse plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AUTODETECT
+	bool "gst-plugins-good autodetect"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less autodetect plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AVI
+	bool "gst-plugins-good avi"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less avi plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_CUTTER
+	bool "gst-plugins-good cutter"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less cutter plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_DEBUGUTILS
+	bool "gst-plugins-good debugutils"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less debugutils plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_DEINTERLACE
+	bool "gst-plugins-good deinterlace"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less deinterlace plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_DTMF
+	bool "gst-plugins-good dtmf"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less dtmf plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_EFFECTV
+	bool "gst-plugins-good effectv"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less effectv plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_EQUALIZER
+	bool "gst-plugins-good equalizer"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less equalizer plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_FLV
+	bool "gst-plugins-good flv"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less flv plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_FLX
+	bool "gst-plugins-good flx"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less flx plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_GOOM
+	bool "gst-plugins-good goom"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less goom plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_GOOM2k1
+	bool "gst-plugins-good goom2k1"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less goom2k1 plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_ICYDEMUX
+	bool "gst-plugins-good icydemux"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less icydemux plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_ID3DEMUX
+	bool "gst-plugins-good id3demux"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less id3demux plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_IMAGEFREEZE
+	bool "gst-plugins-good imagefreeze"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less imagefreeze plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_INTERLEAVE
+	bool "gst-plugins-good interleave"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less interleave plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_ISOMP4
+	bool "gst-plugins-good isomp4"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less isomp4 plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LAW
+	bool "gst-plugins-good law"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less law plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LEVEL
+	bool "gst-plugins-good level"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less level plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_MATROSKA
+	bool "gst-plugins-good matroska"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less matroska plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_MONOSCOPE
+	bool "gst-plugins-good monoscope"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less monoscope plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_MULTIFILE
+	bool "gst-plugins-good multifile"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less multifile plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_MULTIPART
+	bool "gst-plugins-good multipart"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less multipart plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_REPLAYGAIN
+	bool "gst-plugins-good replaygain"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less replaygain plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_RTP
+	bool "gst-plugins-good rtp"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less rtp plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_RTPMANAGER
+	bool "gst-plugins-good rtpmanager"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less rtpmanager plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_RTSP
+	bool "gst-plugins-good rtsp"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less rtsp plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SHAPEWIPE
+	bool "gst-plugins-good shapewipe"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less shapewipe plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SMPTE
+	bool "gst-plugins-good smpte"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less smpte plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SPECTRUM
+	bool "gst-plugins-good spectrum"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less spectrum plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_UDP
+	bool "gst-plugins-good udp"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less udp plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_VIDEOBOX
+	bool "gst-plugins-good videobox"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less videobox plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_VIDEOCROP
+	bool "gst-plugins-good videocrop"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less videocrop plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_VIDEOFILTER
+	bool "gst-plugins-good videofilter"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less videofilter plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_VIDEOMIXER
+	bool "gst-plugins-good videomixer"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less videomixer plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_WAVENC
+	bool "gst-plugins-good wavenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less wavenc plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_WAVPARSE
+	bool "gst-plugins-good wavparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less wavparse plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_Y4M
+	bool "gst-plugins-good y4m"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable dependency-less y4m plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_DIRECTSOUND
+	bool "gst-plugins-good directsound"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable DirectSound plug-in: directsoundsink"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_WAVEFORM
+	bool "gst-plugins-good waveform"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Win32 WaveForm: waveformsink"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_OSS
+	bool "gst-plugins-good oss"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable OSS audio: ossaudio"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_OSS4
+	bool "gst-plugins-good oss4"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Open Sound System 4: oss4"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_OSX_AUDIO
+	bool "gst-plugins-good osx_audio"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable OSX audio: osxaudio"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_OSX_VIDEO
+	bool "gst-plugins-good osx_video"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable OSX video: osxvideosink"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_GST_V4L2
+	bool "gst-plugins-good gst_v4l2"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Video 4 Linux 2: video4linux2"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_V4L2_PROBE
+	bool "gst-plugins-good v4l2-probe"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "enable V4L2 plugin to probe devices"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_X
+	bool "gst-plugins-good x"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable X libraries and plugins: ximagesrc"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_aalib
+	bool "gst-plugins-good aalib"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable aalib ASCII Art library: aasink"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_AALIBTEST
+	bool "gst-plugins-good aalibtest"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "do not try to compile and run a test AALIB program"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_CAIRO
+	bool "gst-plugins-good cairo"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Cairo graphics rendering and gobject bindings: cairo"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_FLAC
+	bool "gst-plugins-good flac"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable FLAC lossless audio: flac"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_GDK_PIXBUF
+	bool "gst-plugins-good gdk_pixbuf"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable GDK pixbuf: gdkpixbuf"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_GTK3
+	bool "gst-plugins-good gtk3"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Gtk+ elements: gtk"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_JACK
+	bool "gst-plugins-good jack"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Jack: jack"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_JPEG
+	bool "gst-plugins-good jpeg"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable jpeg library: jpeg"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LAME
+	bool "gst-plugins-good lame"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable lame mp3 encoder library: lame"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LIBCACA
+	bool "gst-plugins-good libcaca"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable libcaca coloured ASCII art: cacasink"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LIBDV
+	bool "gst-plugins-good libdv"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable libdv DV demuxer/decoder: dv"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_LIBPNG
+	bool "gst-plugins-good libpng"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Portable Network Graphics library: png"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_MPG123
+	bool "gst-plugins-good mpg123"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable mpg123 audio decoder: mpg123"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_PULSE
+	bool "gst-plugins-good pulse"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable pulseaudio plug-in: pulseaudio"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_DV1394
+	bool "gst-plugins-good dv1394"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable raw1394 and avc1394 library: 1394"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_QT
+	bool "gst-plugins-good qt"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Qt elements: qt"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SHOUT2
+	bool "gst-plugins-good shout2"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable Shoutcast/Icecast client library: shout2"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SOUP
+	bool "gst-plugins-good soup"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable soup http client plugin (2.4): souphttpsrc"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_SPEEX
+	bool "gst-plugins-good speex"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable speex speech codec: speex"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_TAGLIB
+	bool "gst-plugins-good taglib"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable taglib tagging library: taglib"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_TWOLAME
+	bool "gst-plugins-good twolame"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable twolame: twolame"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_VPX
+	bool "gst-plugins-good vpx"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable VPX decoder: vpx"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_WAVPACK
+	bool "gst-plugins-good wavpack"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable wavpack plug-in: wavpack"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_ZLIB
+	bool "gst-plugins-good zlib"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable zlib support for qtdemux/matroska"
+
+config BR2_PACKAGE_GST_PLUGINS_GOOD_BZ2
+	bool "gst-plugins-good bz2"
+	depends on BR2_PACKAGE_GST_PLUGINS_GOOD
+	help
+	  "disable bz2 library for matroska"
+

@@ -1,0 +1,5 @@
+config BR2_PACKAGE_QLAUNCHER
+	bool "QLauncher"
+	help
+	  "QLauncher based on QT5"
+

@@ -1,0 +1,270 @@
+config BR2_PACKAGE_GST_PLUGINS_BASE
+	bool "gst-plugins-base"
+	depends on BR2_PACKAGE_GSTREAMER
+	help
+	  "gstreamer base plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_OPENGL
+	bool "gst-plugins-base opengl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable Desktop OpenGL support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_GLES2
+	bool "gst-plugins-base gles2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable OpenGL|ES 2.0 support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_EGL
+	bool "gst-plugins-base egl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable EGL support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_WGL
+	bool "gst-plugins-base wgl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable WGL support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_GLX
+	bool "gst-plugins-base glx"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable GLX support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_COCOA
+	bool "gst-plugins-base cocoa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable Cocoa support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_X11
+	bool "gst-plugins-base x11"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable x11 support [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_WAYLAND
+	bool "gst-plugins-base wayland"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable Wayland support (requires EGL) [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_DISPMANX
+	bool "gst-plugins-base dispmanx"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "Enable Dispmanx support (requires EGL) [default=auto]"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_BSYMBOLIC
+	bool "gst-plugins-base Bsymbolic"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "avoid linking with -Bsymbolic"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_ADDER
+	bool "gst-plugins-base adder"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less adder plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_APP
+	bool "gst-plugins-base app"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less app plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_AUDIOCONVERT
+	bool "gst-plugins-base audioconvert"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less audioconvert plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_AUDIOMIXER
+	bool "gst-plugins-base audiomixer"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less audiomixer plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_AUDIORATE
+	bool "gst-plugins-base audiorate"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less audiorate plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_AUDIOTESTSRC
+	bool "gst-plugins-base audiotestsrc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less audiotestsrc plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_ENCODING
+	bool "gst-plugins-base encoding"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less encoding plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VIDEOCONVERT
+	bool "gst-plugins-base videoconvert"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less videoconvert plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_GIO
+	bool "gst-plugins-base gio"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less gio plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_PLAYBACK
+	bool "gst-plugins-base playback"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less playback plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_RESAMPLE
+	bool "gst-plugins-base resample"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less audioresample plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_RAWPARSE
+	bool "gst-plugins-base rawparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less rawparse plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_SUBPARSE
+	bool "gst-plugins-base subparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less subparse plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_TCP
+	bool "gst-plugins-base tcp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less tcp plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_TYPEFIND
+	bool "gst-plugins-base typefind"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less typefind plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VIDEOTESTSRC 
+	bool "gst-plugins-base videotestsrc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less videotestsrc plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VIDEORATE
+	bool "gst-plugins-base videorate"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less videorate plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VIDEOSCALE
+	bool "gst-plugins-base videoscale"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less videoscale plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VOLUME
+	bool "gst-plugins-base volume"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable dependency-less volume plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_ISO_CODES
+	bool "gst-plugins-base iso-codes"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "use iso-codes if installed"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_ZLIB
+	bool "gst-plugins-base zlib"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable zlib support for ID3 parsing in libgsttag"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_X
+	bool "gst-plugins-base x"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable X libraries and plugins: ximagesink"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_XVIDEO
+	bool "gst-plugins-base xvideo"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable X11 XVideo extensions: xvimagesink"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_XSHM
+	bool "gst-plugins-base xshm"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable X Shared Memory extension"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_ALSA
+	bool "gst-plugins-base alsa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable ALSA: alsa"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_CDPARANOIA
+	bool "gst-plugins-base cdparanoia"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable CDParanoia: cdparanoia"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_GL
+	bool "gst-plugins-base gl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable gl elements: gl"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_IVORBIS
+	bool "gst-plugins-base ivorbis"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable integer vorbis plug-in: ivorbisdec"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_LIBVISUAL
+	bool "gst-plugins-base libvisual"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable libvisual visualization library: libvisual"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_OGG
+	bool "gst-plugins-base ogg"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable Xiph Ogg library: ogg"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_OPUS
+	bool "gst-plugins-base opus"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable opus: opus"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_PANGO
+	bool "gst-plugins-base pango"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable Pango font rendering: pango"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_THEORA
+	bool "gst-plugins-base theora"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable Xiph Theora video codec: theora"
+
+config BR2_PACKAGE_GST_PLUGINS_BASE_VORBIS
+	bool "gst-plugins-base vorbis"
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "disable Xiph Vorbis audio codec: vorbis"
+

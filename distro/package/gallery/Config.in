@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GALLERY
+	bool "gallery app"
+	help
+	  "gallery app based on QT5"
+

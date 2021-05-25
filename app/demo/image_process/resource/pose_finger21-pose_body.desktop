@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=pose 21finger&body(rockx)
+Exec=bash -c "/usr/bin/n1-1808-rockx-drmdisp.sh camera pose_finger21+pose_body 1280 720"
+Icon=/usr/local/share/app_demo/resource/1808.png
+Type=Application

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=setting
+Name[zh_CN]=设置
+Exec=/usr/local/settings/settings
+Icon=/usr/local/settings/icon_setting.png
+Type=Application

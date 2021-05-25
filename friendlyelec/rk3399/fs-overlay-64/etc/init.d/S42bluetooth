@@ -1,0 +1,19 @@
+#!/bin/sh
+case "$1" in
+  start)
+	/bin/echo 1 > /sys/class/rfkill/rfkill0/state
+	/usr/bin/hciattach /dev/ttyS0 bcm43xx 115200
+	sleep 1
+	/bin/echo 1 > /sys/class/rfkill/rfkill3/state
+	sleep 1
+	hciconfig hci0 up
+	;;
+  stop)
+		printf " "
+        ;;
+  *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+exit 0

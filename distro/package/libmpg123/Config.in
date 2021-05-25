@@ -1,0 +1,6 @@
+config BR2_PACKAGE_LIBMPG123
+	bool "libmpg123"
+	help
+	  "Fast, free and portable MPEG audio player for Unix. It
+          supports MPEG 1.0/2.0 layers 1, 2 and 3."
+

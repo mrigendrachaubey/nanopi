@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CAMERA
+	bool "camera app"
+	help
+	  "camera app based on QT5"
+

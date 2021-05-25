@@ -1,0 +1,11 @@
+[Unit]
+Description=load wifi firmware to wifi driver
+Before=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/S66load_wifi_modules start
+ExecStop=/usr/bin/S66load_wifi_modules stop
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=face landmark(rockx)
+Exec=bash -c "/usr/bin/n1-1808-rockx-drmdisp.sh camera face_landmark 1280 720 640 360"
+Icon=/usr/local/share/app_demo/resource/1808.png
+Type=Application

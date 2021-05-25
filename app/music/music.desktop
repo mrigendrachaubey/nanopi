@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=music
+Name[zh_CN]=音乐
+Exec=/usr/local/music/musicPlayer
+Icon=/usr/local/music/icon_music.png
+Type=Application

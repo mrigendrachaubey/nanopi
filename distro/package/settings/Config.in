@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SETTINGS
+	bool "settings app"
+	help
+	  "settings app based on QT5"
+

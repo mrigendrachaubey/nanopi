@@ -1,0 +1,6 @@
+config BR2_PACKAGE_WESTON
+	bool "weston"
+	help
+	  "Weston is the reference implementation of a Wayland compositor"
+
+

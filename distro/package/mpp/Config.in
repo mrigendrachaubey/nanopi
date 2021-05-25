@@ -1,0 +1,5 @@
+config BR2_PACKAGE_MPP
+	bool "mpp"
+	help
+	  "Rockchip Multimedia Processing Platform"
+

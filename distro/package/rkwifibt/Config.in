@@ -1,0 +1,16 @@
+config BR2_PACKAGE_RKWIFIBT
+	bool "rkwifibt"
+	help
+	  "wifi chip support"
+
+config BR2_PACKAGE_RKWIFIBT_BTUART
+	string "bt uart"
+	default "ttyS4"
+	depends on BR2_PACKAGE_RKWIFIBT
+	help
+		tty that bt used
+config BR2_PACKAGE_RKWIFIBT_NTP
+	bool "ntp"
+	depends on BR2_PACKAGE_RKWIFIBT
+	help
+	  "ntp config"

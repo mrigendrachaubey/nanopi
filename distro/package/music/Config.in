@@ -1,0 +1,6 @@
+config BR2_PACKAGE_MUSIC
+	bool "music app"
+	depends on BR2_PACKAGE_GSTREAMER_ROCKCHIP
+	help
+	  "music app based on QT5"
+

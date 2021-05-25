@@ -1,0 +1,924 @@
+config BR2_PACKAGE_GST_PLUGINS_BAD
+	bool "gst-plugins-bad"
+	depends on BR2_PACKAGE_GSTREAMER
+	help
+	  "gstreamer bad plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_IPA
+	bool "gst-plugins-bad ipa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable iqa"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ORC
+	bool "gst-plugins-bad orc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "use Orc if installed"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ACCURIP
+	bool "gst-plugins-bad accurip"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less accurip plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ADPCMDEC
+	bool "gst-plugins-bad adpcmdec"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less adpcmdec plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ADPCMENC
+	bool "gst-plugins-bad adpcmenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less adpcmenc plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AIFF
+	bool "gst-plugins-bad aiff"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less aiff plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VIDEOFRAME_AUDIOLEVEL
+	bool "gst-plugins-bad videoframe_audiolevel"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less videoframe_audiolevel plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ASFMUX
+	bool "gst-plugins-bad asfmux"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less asfmux plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUDIOBUFFERSPLIT
+	bool "gst-plugins-bad audiobuffersplit"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less audiobuffersplit plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUDIOFXBAD
+	bool "gst-plugins-bad audiofxbad"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less audiofxbad plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUDIOLATENCY
+	bool "gst-plugins-bad audiolatency"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less audiolatency plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUDIOMIXMATRIX
+	bool "gst-plugins-bad audiomixmatrix"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less audiomixmatrix plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_COMPOSITOR
+	bool "gst-plugins-bad compositor"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less compositor plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUDIOVISUALIZERS
+	bool "gst-plugins-bad audiovisualizers"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less audiovisualizers plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AUTOCONVERT
+	bool "gst-plugins-bad autoconvert"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  "enable dependency-less autoconvert plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_BAYER
+	bool "gst-plugins-bad bayer"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_CAMERABIN2
+	bool "gst-plugins-bad camerabin2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_COLOREFFECTS
+	bool "gst-plugins-bad coloreffects"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DEBUGUTILS
+	bool "gst-plugins-bad debugutils"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DVBSUBOVERLAY
+	bool "gst-plugins-bad dvbsuboverlay"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DVDSPU
+	bool "gst-plugins-bad dvdspu"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FACEOVERLAY
+	bool "gst-plugins-bad faceoverlay"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FESTIVAL
+	bool "gst-plugins-bad festival"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FIELDANALYSIS
+	bool "gst-plugins-bad fieldanalysis"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FREEVERB
+	bool "gst-plugins-bad freeverb"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FREI0R
+	bool "gst-plugins-bad frei0r"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GAUDIEFFECTS
+	bool "gst-plugins-bad gaudieffects"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GEOMETRICTRANSFORM
+	bool "gst-plugins-bad geometrictransform"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GDP
+	bool "gst-plugins-bad gdp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ID3TAG
+	bool "gst-plugins-bad id3tag"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_INTER
+	bool "gst-plugins-bad inter"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_INTERLACE
+	bool "gst-plugins-bad interlace"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_IVFPARSE
+	bool "gst-plugins-bad ivfparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_IVTC
+	bool "gst-plugins-bad ivtc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_JP2KDECIMATOR
+	bool "gst-plugins-bad jp2kdecimator"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_JPEGFORMAT
+	bool "gst-plugins-bad jpegformat"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LIBRFB
+	bool "gst-plugins-bad librfb"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MIDI
+	bool "gst-plugins-bad midi"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPEGDEMUX
+	bool "gst-plugins-bad mpegdemux"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPEGTSDEMUX
+	bool "gst-plugins-bad mpegtsdemux"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPEGTSMUX
+	bool "gst-plugins-bad mpegtsmux"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPEGPSMUX
+	bool "gst-plugins-bad mpegpsmux"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MXF
+	bool "gst-plugins-bad mxf"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_NETSIM
+	bool "gst-plugins-bad netsim"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ONVIF
+	bool "gst-plugins-bad onvif"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_PCAPPARSE
+	bool "gst-plugins-bad pcapparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_PNM
+	bool "gst-plugins-bad pnm"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_PROXY
+	bool "gst-plugins-bad proxy"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_RAWPARSE
+	bool "gst-plugins-bad rawparse"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_REMOVESILENCE
+	bool "gst-plugins-bad removesilence"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SDP
+	bool "gst-plugins-bad sdp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SEGMENTCLIP
+	bool "gst-plugins-bad segmentclip"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SIREN
+	bool "gst-plugins-bad siren"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SMOOTH
+	bool "gst-plugins-bad smooth"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SPEED
+	bool "gst-plugins-bad speed"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SUBENC
+	bool "gst-plugins-bad subenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_STEREO
+	bool "gst-plugins-bad stereo"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_TIMECODE
+	bool "gst-plugins-bad timecode"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VIDEOFILTERS
+	bool "gst-plugins-bad videofilters"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VIDEOPARSERS
+	bool "gst-plugins-bad videoparsers"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VIDEOSIGNAL
+	bool "gst-plugins-bad videosignal"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VMNC
+	bool "gst-plugins-bad vmnc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_Y4M
+	bool "gst-plugins-bad y4m"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_YADIF
+	bool "gst-plugins-bad yadif"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DIRECTSOUND
+	bool "gst-plugins-bad directsound"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WASAPI
+	bool "gst-plugins-bad wasapi"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DIRECT3D
+	bool "gst-plugins-bad direct3d"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WINSCREENCAP
+	bool "gst-plugins-bad winscreencap"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WINKS
+	bool "gst-plugins-bad winks"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ANDROID_MEDIA
+	bool "gst-plugins-bad android_media"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_APPLE_MEDIA
+	bool "gst-plugins-bad apple_media"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_BLUEZ
+	bool "gst-plugins-bad bluez"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AVC
+	bool "gst-plugins-bad avc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SHM
+	bool "gst-plugins-bad shm"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_IPCPIPELINE
+	bool "gst-plugins-bad ipcpipeline"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VCD
+	bool "gst-plugins-bad vcd"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENSLES
+	bool "gst-plugins-bad opensles"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_UVCH264
+	bool "gst-plugins-bad uvch264"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_CUDA
+	bool "gst-plugins-bad cuda"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_NVDEC
+	bool "gst-plugins-bad nvdec"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_NVENC
+	bool "gst-plugins-bad nvenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_TINYALSA
+	bool "gst-plugins-bad tinyalsa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MSDK
+	bool "gst-plugins-bad msdk"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ASSRENDER
+	bool "gst-plugins-bad assrender"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_AOM
+	bool "gst-plugins-bad aom"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VOAMRWBENC
+	bool "gst-plugins-bad voamrwbenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VOAACENC
+	bool "gst-plugins-bad voaacenc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_BS2B
+	bool "gst-plugins-bad bs2b"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_BZ2
+	bool "gst-plugins-bad bz2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_CHROMAPRINT
+	bool "gst-plugins-bad chromaprint"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_CURL
+	bool "gst-plugins-bad curl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DASH
+	bool "gst-plugins-bad dash"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DC1394
+	bool "gst-plugins-bad dc1394"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DECKLINK
+	bool "gst-plugins-bad decklink"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DIRECTFB
+	bool "gst-plugins-bad directfb"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WAYLAND
+	bool "gst-plugins-bad wayland"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WEBP
+	bool "gst-plugins-bad webp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DAALA
+	bool "gst-plugins-bad daala"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DTS
+	bool "gst-plugins-bad dts"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_RESINDVD
+	bool "gst-plugins-bad resindvd"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FAAC
+	bool "gst-plugins-bad faac"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FAAD
+	bool "gst-plugins-bad faad"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FBDEV
+	bool "gst-plugins-bad fbdev"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FDK_AAC
+	bool "gst-plugins-bad fdk_aac"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FLITE
+	bool "gst-plugins-bad flite"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GSM
+	bool "gst-plugins-bad gsm"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_FLUIDSYNTH
+	bool "gst-plugins-bad fluidsynth"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_KATE
+	bool "gst-plugins-bad kate"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_KMS
+	bool "gst-plugins-bad kms"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LADSPA
+	bool "gst-plugins-bad ladspa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LCMS2
+	bool "gst-plugins-bad lcms2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LV2
+	bool "gst-plugins-bad lv2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LIBDE265
+	bool "gst-plugins-bad libde265"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_LIBMMS
+	bool "gst-plugins-bad libmms"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SRT
+	bool "gst-plugins-bad srt"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SRTP
+	bool "gst-plugins-bad srtp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DTLS
+	bool "gst-plugins-bad dtls"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_TTML
+	bool "gst-plugins-bad ttml"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MODPLUG
+	bool "gst-plugins-bad modplug"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPEG2ENC
+	bool "gst-plugins-bad mpeg2enc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MPLEX
+	bool "gst-plugins-bad mplex"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_MUSEPACK
+	bool "gst-plugins-bad musepack"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_NEON
+	bool "gst-plugins-bad neon"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OFA
+	bool "gst-plugins-bad ofa"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENAL
+	bool "gst-plugins-bad openal"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENCV
+	bool "gst-plugins-bad opencv"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENEXR
+	bool "gst-plugins-bad openexr"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENH264
+	bool "gst-plugins-bad openh264"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENJPEG
+	bool "gst-plugins-bad openjpeg"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENMPT
+	bool "gst-plugins-bad openmpt"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPENNI2
+	bool "gst-plugins-bad openni2"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_OPUS
+	bool "gst-plugins-bad opus"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_RSVG
+	bool "gst-plugins-bad rsvg"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GL
+	bool "gst-plugins-bad gl"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VULKAN
+	bool "gst-plugins-bad vulkan"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_TELETEXTDEC
+	bool "gst-plugins-bad teletextdec"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WILDMIDI
+	bool "gst-plugins-bad wildmidi"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SMOOTHSTREAMING
+	bool "gst-plugins-bad smoothstreaming"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SNDFILE
+	bool "gst-plugins-bad sndfile"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SOUNDTOUCH
+	bool "gst-plugins-bad soundtouch"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SPC
+	bool "gst-plugins-bad spc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_GME
+	bool "gst-plugins-bad gme"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_DVB
+	bool "gst-plugins-bad dvd"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ACM
+	bool "gst-plugins-bad acm"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_VDPAU
+	bool "gst-plugins-bad vdpau"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SBC
+	bool "gst-plugins-bad sbc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_ZBAR
+	bool "gst-plugins-bad zbar"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_RTMP
+	bool "gst-plugins-bad rtmp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_SPANDSP
+	bool "gst-plugins-bad spandsp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_HLS
+	bool "gst-plugins-bad hls"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_X265
+	bool "gst-plugins-bad x265"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WEBRTCDSP
+	bool "gst-plugins-bad webrtcdsp"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+
+config BR2_PACKAGE_GST_PLUGINS_BAD_WEBRTC
+	bool "gst-plugins-bad webrtc"
+	depends on BR2_PACKAGE_GST_PLUGINS_BAD
+	help
+	  ""
+

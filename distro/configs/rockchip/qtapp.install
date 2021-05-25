@@ -1,0 +1,8 @@
+libqt5widgets5
+libqt5qml5
+libatomic1
+qtwayland5
+qml-module-qtquick-window2
+qml-module-qt-labs-settings
+qml-module-qtquick-controls
+libqt5multimedia5

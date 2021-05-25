@@ -1,0 +1,5 @@
+config BR2_PACKAGE_ALSA_CONFIG
+	bool "alsa-config"
+	help
+	  "copy extra alsa configs to /usr/share/alsa/"
+

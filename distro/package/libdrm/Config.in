@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LIBDRM
+	bool "libdrm-rockchip"
+	help
+	  "Direct Rendering Manager for Rockchip platform"
+

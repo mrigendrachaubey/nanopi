@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# Start linux launcher...
+#
+
+case "$1" in
+  start)
+		printf "Starting launcher: "
+		export QT_QPA_PLATFORM=wayland
+		#for dual display with morror mode by default
+		export WESTON_DRM_MIRROR=1
+		export WESTON_DRM_KEEP_RATIO=1
+
+		# music
+		/usr/bin/audioservice &
+
+		#for QLauncher wayland
+		mkdir -p /tmp/.xdg &&  chmod 0700 /tmp/.xdg
+		export XDG_RUNTIME_DIR=/tmp/.xdg
+		weston --tty=2 --idle-time=0&
+		sleep 1
+		/usr/bin/QLauncher /usr/share/backgrounds/background.jpg &
+	;;
+  stop)
+		killall QLauncher
+		killall weston
+		printf "stop finished"
+        ;;
+  *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+exit 0

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=ssd(rockx)
+Exec=bash -c "/usr/bin/n1-1808-rockx-drmdisp.sh \"/userdata/test_ssd.mp4\" ssd 1280 720 -loop"
+Icon=/usr/local/share/app_demo/resource/1808.png
+Type=Application

@@ -1,0 +1,84 @@
+config BR2_PACKAGE_GST_PLUGINS_UGLY
+	bool "gst-plugins-ugly"
+	depends on BR2_PACKAGE_GSTREAMER
+	help
+	  "gstreamer ugly plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_ASFDEMUX
+	bool "gst-plugins-ugly asfdemux"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dependency-less asfdemux plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_DVDLPCMDEC
+	bool "gst-plugins-ugly dvdlpcmdec"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dependency-less dvdlpcmdec plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_DVDSUB
+	bool "gst-plugins-ugly dvdsub"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dependency-less dvdsub plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_XINGMUX
+	bool "gst-plugins-ugly xingmux"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dependency-less xingmux plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_REALMEDIA
+	bool "gst-plugins-ugly realmedia"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dependency-less realmedia plugin"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_A52DEC
+	bool "gst-plugins-ugly a52dec"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable a52dec: a52dec"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_AMRNB
+	bool "gst-plugins-ugly amrnb"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable amrnb library: amrnb"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_AMRWB
+	bool "gst-plugins-ugly amrwb"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable amrwb library: amrwbdec"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_CDIO
+	bool "gst-plugins-ugly cdio"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable cdio library: cdio"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_DVDREAD
+	bool "gst-plugins-ugly dvdread"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable dvdread library: dvdreadsrc"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_MPEG2DEC
+	bool "gst-plugins-ugly mpeg2dec"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable mpeg2dec: mpeg2dec"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_SIDPLAY
+	bool "gst-plugins-ugly sidplay"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable libsidplay: sid"
+
+config BR2_PACKAGE_GST_PLUGINS_UGLY_X264
+	bool "gst-plugins-ugly x264"
+	depends on BR2_PACKAGE_GST_PLUGINS_UGLY
+	help
+	  "disable x264 plug-in: x264"
+

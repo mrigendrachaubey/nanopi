@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AUDIOSERVICE
+	bool "audioservice"
+	help
+	  "audioservice is a background audio player"
+

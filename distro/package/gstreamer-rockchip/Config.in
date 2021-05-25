@@ -1,0 +1,7 @@
+config BR2_PACKAGE_GSTREAMER_ROCKCHIP
+	bool "gstreamer-rockchip"
+	depends on BR2_PACKAGE_MPP
+	depends on BR2_PACKAGE_GST_PLUGINS_BASE
+	help
+	  "gstreamer rockchip video codec plugin"
+
